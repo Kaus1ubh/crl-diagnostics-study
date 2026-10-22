@@ -1,0 +1,137 @@
+{
+  "retrieved_at": "2026-10-22T16:46:52.388805+00:00",
+  "files": [
+    {
+      "file": "bug-1970728.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1970728?include_fields=id,summary,creation_time,last_change_time,status,resolution",
+      "bytes": 203,
+      "sha256": "fcabca7404109603d5285657f003243d74da05e3ca4ec056a90021512de23f57"
+    },
+    {
+      "file": "comments-1970728.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1970728/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 16310,
+      "sha256": "8a671521e54ffeeb34cc9ad83b249810d48c3aaa6482103d5d0ec6ea0a86beb1"
+    },
+    {
+      "file": "attachments-1970728.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1970728/attachment?exclude_fields=data",
+      "bytes": 3279,
+      "sha256": "d1653487ad2b4958fa875efadf50a8f0f99e7c7dc4f17bfaed2322d76532ac17"
+    },
+    {
+      "file": "attachment-9493661.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493661",
+      "bytes": 284,
+      "sha256": "ee0936ec39cbf54620f02a8a6d73220a9d174df15e5d1dd09f46fd199414580b"
+    },
+    {
+      "file": "attachment-9493662.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493662",
+      "bytes": 286,
+      "sha256": "51f51b048f0b653e6953f8a8884db6d78a29a513280b299d7b4ad14e55b5a2de"
+    },
+    {
+      "file": "attachment-9493663.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493663",
+      "bytes": 284,
+      "sha256": "ee0936ec39cbf54620f02a8a6d73220a9d174df15e5d1dd09f46fd199414580b"
+    },
+    {
+      "file": "attachment-9493664.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493664",
+      "bytes": 286,
+      "sha256": "b4bd6c53587d714461f5e9bcd2ab3ca730dfc18ae9906d185ee94914c50bbe06"
+    },
+    {
+      "file": "attachment-9493665.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493665",
+      "bytes": 283,
+      "sha256": "defabddd5edfd8577cf9ff5af13025581e8ad0ca29eed55a460b16cf6b7aca44"
+    },
+    {
+      "file": "attachment-9493666.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493666",
+      "bytes": 285,
+      "sha256": "9a5fd274516a605f9e02f3593afea0ea8cb64fce4fe45cc839fcfadd2fd6e499"
+    },
+    {
+      "file": "bug-2083449.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2083449?include_fields=id,summary,creation_time,last_change_time,status,resolution",
+      "bytes": 227,
+      "sha256": "326e6ebb14eca10fe6829e66cc181ad4ce955c24423c7c3bf41e5cfdd5afc621"
+    },
+    {
+      "file": "comments-2083449.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2083449/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 54391,
+      "sha256": "37697b8648492ae55b1013949b71d63c2e157b78a91e5c560e3f224c71b37dc0"
+    },
+    {
+      "file": "attachments-2083449.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2083449/attachment?exclude_fields=data",
+      "bytes": 3330,
+      "sha256": "0112350b5cb76110f63a329b5008859248279157f2b9862924a880a0fbd489e2"
+    },
+    {
+      "file": "attachment-9664144.zip",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9664144",
+      "bytes": 5188,
+      "sha256": "a76ad266f30b6084cf2d0d7e456b2ea87f8ac50384808d85825421328e39a545"
+    },
+    {
+      "file": "bug-1793441.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1793441?include_fields=id,summary,creation_time,last_change_time,status,resolution",
+      "bytes": 224,
+      "sha256": "549df72411847f798df203ab62598d211d91fd6daa024ffc877cce71f8fb21a2"
+    },
+    {
+      "file": "comments-1793441.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1793441/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 6233,
+      "sha256": "b48526c49c337f825454cd5f12f8e2393cd93db9450553bb63f1b849527d424f"
+    },
+    {
+      "file": "attachments-1793441.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1793441/attachment?exclude_fields=data",
+      "bytes": 573,
+      "sha256": "fec1f0d0362c28a9ccd46eba9215ef26568d159f0a11bc598ef627494bcc46fb"
+    },
+    {
+      "file": "attachment-9296987.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9296987",
+      "bytes": 545,
+      "sha256": "08aecf318dafc24c25a4c2ef7a65a81462f3af6b906ae0a59fec1916d01df7b6"
+    },
+    {
+      "file": "roots.json",
+      "url": "https://emudhra.we-have-a-problem.com/roots.json",
+      "bytes": 7903,
+      "sha256": "119f32cd81a6b5a4e3c4c2df5fe07daa90dc43cafa123a62f0394f1895d92380"
+    },
+    {
+      "file": "impacted-intermediates.json",
+      "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+      "bytes": 40132,
+      "sha256": "f67b3abe9b4879f4e91874ed041beccd71257f1db41c588c724ccf12aa90c59e"
+    },
+    {
+      "file": "globalsign-issuer.crt",
+      "url": "https://secure.globalsign.com/cacert/gsoveccg4r3.crt",
+      "bytes": 988,
+      "sha256": "65eec0cc6c970cc1cd73659115dc8d904e6f12e6dc8fd4dda39d54cb30224780"
+    },
+    {
+      "file": "archive-dashboard-20250603.html",
+      "url": "https://web.archive.org/web/20250603145523id_/https://crt.sh/mozilla-disclosures",
+      "bytes": 1441586,
+      "sha256": "e537d351b13f9b2438f772735fe4466e190734b53b3bac964f4c8731efe90133"
+    },
+    {
+      "file": "wayback-crl-cdx.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=crl.emsign.com%2F%2AEMEVTLSCAG3B.crl%2A&output=json&filter=statuscode%3A200&from=20250401&to=20250731&collapse=digest&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Clength&limit=30",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  ]
+}

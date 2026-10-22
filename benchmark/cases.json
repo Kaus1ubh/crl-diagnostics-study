@@ -1,0 +1,481 @@
+{
+  "protocol_sha256": "E28B94C2DA32C110A2058E897832DBB15C282A23F9E2DF4224DB0075C909524A",
+  "source_manifest_sha256": {
+    "evidence": "1B68BF7D432CAEDFE2E8A90C33795DFD984A61020929FFAAD2B0978FE9FCD54C",
+    "expansion": "7C5F2361338042F65697FC90C5CDCDD9A8520CB98B671C249951FFC96576EBA7"
+  },
+  "case_selection": "Retrospective convenience set; stated issuer pairing from source context; source labels not diagnostic inputs.",
+  "files": [
+    {
+      "file": "artifacts/0164d7ceae5bb909c272af151ff44b1177ae9b47d9424b94f1d9558c30934d19.der",
+      "sha256": "0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19"
+    },
+    {
+      "file": "artifacts/08aecf318dafc24c25a4c2ef7a65a81462f3af6b906ae0a59fec1916d01df7b6.crl",
+      "sha256": "08AECF318DAFC24C25A4C2EF7A65A81462F3AF6B906AE0A59FEC1916D01DF7B6"
+    },
+    {
+      "file": "artifacts/0c07490e6c95c040610f0e494cbd338c0841b3f3d8340621868d9ec56e5be56a.crl",
+      "sha256": "0C07490E6C95C040610F0E494CBD338C0841B3F3D8340621868D9EC56E5BE56A"
+    },
+    {
+      "file": "artifacts/199c16b08784203b8567d5380c6fa79affe99e3a706714bffa55f0ae800be9ca.crl",
+      "sha256": "199C16B08784203B8567D5380C6FA79AFFE99E3A706714BFFA55F0AE800BE9CA"
+    },
+    {
+      "file": "artifacts/3aa6d60e654365b3879ac9ff762ca866b4e042594f1a43ac7d9a7d42c8ddad30.crl",
+      "sha256": "3AA6D60E654365B3879AC9FF762CA866B4E042594F1A43AC7D9A7D42C8DDAD30"
+    },
+    {
+      "file": "artifacts/432ec25f0d28de9006d97bf752f17bbb2cd41f669933fcb072d9a1148d0261f3.der",
+      "sha256": "432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3"
+    },
+    {
+      "file": "artifacts/4ffb1ef225e46ad70b548128b83360d0b78741e97badf876982674a054007f27.crl",
+      "sha256": "4FFB1EF225E46AD70B548128B83360D0B78741E97BADF876982674A054007F27"
+    },
+    {
+      "file": "artifacts/51f51b048f0b653e6953f8a8884db6d78a29a513280b299d7b4ad14e55b5a2de.crl",
+      "sha256": "51F51B048F0B653E6953F8A8884DB6D78A29A513280B299D7B4AD14E55B5A2DE"
+    },
+    {
+      "file": "artifacts/5882f3179f05ccd2cec03c078e61e86cbda704853aa135ec4aba748cd0908fee.crl",
+      "sha256": "5882F3179F05CCD2CEC03C078E61E86CBDA704853AA135EC4ABA748CD0908FEE"
+    },
+    {
+      "file": "artifacts/65eec0cc6c970cc1cd73659115dc8d904e6f12e6dc8fd4dda39d54cb30224780.der",
+      "sha256": "65EEC0CC6C970CC1CD73659115DC8D904E6F12E6DC8FD4DDA39D54CB30224780"
+    },
+    {
+      "file": "artifacts/761503e31f5d1a48e1ecca91312dfc81c46265ba7feecf276f8c04d19264b93b.der",
+      "sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B"
+    },
+    {
+      "file": "artifacts/7e7d7c053d5b26f449cb68d076abb7b5f73510e44b7d08d43f2c68d41a0bd392.crl",
+      "sha256": "7E7D7C053D5B26F449CB68D076ABB7B5F73510E44B7D08D43F2C68D41A0BD392"
+    },
+    {
+      "file": "artifacts/861047370d666576944df4cec0ded34b9543c6c597120359d1a88d085a200bf3.tbs",
+      "sha256": "861047370D666576944DF4CEC0DED34B9543C6C597120359D1A88D085A200BF3"
+    },
+    {
+      "file": "artifacts/8a71de6559336f426c26e53880d00d88a18da4c6a91f0dcb6194e206c5c96387.der",
+      "sha256": "8A71DE6559336F426C26E53880D00D88A18DA4C6A91F0DCB6194E206C5C96387"
+    },
+    {
+      "file": "artifacts/9846bf9a4f213d8fba87e79d464732b9cc35a784f7992334ec3bc6db2a6f7dbd.crl",
+      "sha256": "9846BF9A4F213D8FBA87E79D464732B9CC35A784F7992334EC3BC6DB2A6F7DBD"
+    },
+    {
+      "file": "artifacts/98b896625c0c230adeec3eb2cf6aad5001ecf9156a68644e82374ce5833bc25b.der",
+      "sha256": "98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B"
+    },
+    {
+      "file": "artifacts/9a5fd274516a605f9e02f3593afea0ea8cb64fce4fe45cc839fcfadd2fd6e499.crl",
+      "sha256": "9A5FD274516A605F9E02F3593AFEA0EA8CB64FCE4FE45CC839FCFADD2FD6E499"
+    },
+    {
+      "file": "artifacts/9b745f09502929952fc65f6cdf204bd8f99362831d6de2cabb656780db5b1804.der",
+      "sha256": "9B745F09502929952FC65F6CDF204BD8F99362831D6DE2CABB656780DB5B1804"
+    },
+    {
+      "file": "artifacts/a5b27d844a0ecb68f1d065723202a2f07c667de96b84e68a9af234669397d6c4.der",
+      "sha256": "A5B27D844A0ECB68F1D065723202A2F07C667DE96B84E68A9AF234669397D6C4"
+    },
+    {
+      "file": "artifacts/a788a348b308b77fbe5bd9235199e85cdbab5323be87e6acd3654c9db6260025.crl",
+      "sha256": "A788A348B308B77FBE5BD9235199E85CDBAB5323BE87E6ACD3654C9DB6260025"
+    },
+    {
+      "file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575"
+    },
+    {
+      "file": "artifacts/b4bd6c53587d714461f5e9bcd2ab3ca730dfc18ae9906d185ee94914c50bbe06.crl",
+      "sha256": "B4BD6C53587D714461F5E9BCD2AB3CA730DFC18AE9906D185EE94914C50BBE06"
+    },
+    {
+      "file": "artifacts/bb99b0426bf90926e6ab085f345dbf5da5a3fd5d5e69cf933e525c17c401ab60.tbs",
+      "sha256": "BB99B0426BF90926E6AB085F345DBF5DA5A3FD5D5E69CF933E525C17C401AB60"
+    },
+    {
+      "file": "artifacts/bbe01cb591a399e34563be6c70a85289dc5779fe1a78dcf90cbbb40c5418e2c5.crl",
+      "sha256": "BBE01CB591A399E34563BE6C70A85289DC5779FE1A78DCF90CBBB40C5418E2C5"
+    },
+    {
+      "file": "artifacts/bd8f716ef9994931446ce90537ce69e85637aaddcd8a3b34f668e362d8b3d950.crl",
+      "sha256": "BD8F716EF9994931446CE90537CE69E85637AADDCD8A3B34F668E362D8B3D950"
+    },
+    {
+      "file": "artifacts/c86665ca6e470ae498120731b8d3f4910c92af8d80b63031d9877f880c7adbc2.crl",
+      "sha256": "C86665CA6E470AE498120731B8D3F4910C92AF8D80B63031D9877F880C7ADBC2"
+    },
+    {
+      "file": "artifacts/cb6e15165ac802e9b3f993f16c25d41f4e81c21ebde71ae1b012ac00bf9c7c3f.der",
+      "sha256": "CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F"
+    },
+    {
+      "file": "artifacts/cef71e70b7c29addf6c30cd19e614b38fd5f02a435a0eeddd0087e183d101a51.der",
+      "sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51"
+    },
+    {
+      "file": "artifacts/db5e49f8c70e53b7876a7247016822c5660dc86c771deeb62ca1a64bb6d12dc2.crl",
+      "sha256": "DB5E49F8C70E53B7876A7247016822C5660DC86C771DEEB62CA1A64BB6D12DC2"
+    },
+    {
+      "file": "artifacts/dbd4918e839dd41a4801dbfa2f8ed1b1d71336508758974e715fea8246b4817e.crl",
+      "sha256": "DBD4918E839DD41A4801DBFA2F8ED1B1D71336508758974E715FEA8246B4817E"
+    },
+    {
+      "file": "artifacts/defabddd5edfd8577cf9ff5af13025581e8ad0ca29eed55a460b16cf6b7aca44.crl",
+      "sha256": "DEFABDDD5EDFD8577CF9FF5AF13025581E8AD0CA29EED55A460B16CF6B7ACA44"
+    },
+    {
+      "file": "artifacts/e7568fe6e12331f4fd7de61da4c7559d0f8eb192a218d4741a3ba75184333838.der",
+      "sha256": "E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838"
+    },
+    {
+      "file": "artifacts/e958c41fd6090b0d7517ee36361766c70ea73a4198fe2089094123b209522e73.crl",
+      "sha256": "E958C41FD6090B0D7517EE36361766C70EA73A4198FE2089094123B209522E73"
+    },
+    {
+      "file": "artifacts/ee0936ec39cbf54620f02a8a6d73220a9d174df15e5d1dd09f46fd199414580b.crl",
+      "sha256": "EE0936EC39CBF54620F02A8A6D73220A9D174DF15E5D1DD09F46FD199414580B"
+    },
+    {
+      "file": "artifacts/f14fd30a342a679aee65f9fe6d8262996c50959f0f7d136d13085ea892b0621b.der",
+      "sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B"
+    },
+    {
+      "file": "artifacts/f2ef3946c3998a66c684699729a5ba511a54b549b573e7ab301750dc1ecc12a8.crl",
+      "sha256": "F2EF3946C3998A66C684699729A5BA511A54B549B573E7AB301750DC1ECC12A8"
+    },
+    {
+      "file": "artifacts/fc886c46245825339a9212be2c355f4a6b3bcd5b4513b2c3605e4b4e80bbbff1.crl",
+      "sha256": "FC886C46245825339A9212BE2C355F4A6B3BCD5B4513B2C3605E4B4E80BBBFF1"
+    }
+  ],
+  "cases": [
+    {
+      "id": "51f51b048f0b653e",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_file": "artifacts/51f51b048f0b653e6953f8a8884db6d78a29a513280b299d7b4ad14e55b5a2de.crl",
+      "crl_sha256": "51F51B048F0B653E6953F8A8884DB6D78A29A513280B299D7B4AD14E55B5A2DE",
+      "issuer_file": "artifacts/0164d7ceae5bb909c272af151ff44b1177ae9b47d9424b94f1d9558c30934d19.der",
+      "issuer_sha256": "0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19",
+      "aliases": [
+        "evidence/attachment-9493662.crl"
+      ],
+      "source_annotation": "operator_reported_key_mismatch; actual signer unresolved",
+      "supplement": null
+    },
+    {
+      "id": "9a5fd274516a605f",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_file": "artifacts/9a5fd274516a605f9e02f3593afea0ea8cb64fce4fe45cc839fcfadd2fd6e499.crl",
+      "crl_sha256": "9A5FD274516A605F9E02F3593AFEA0EA8CB64FCE4FE45CC839FCFADD2FD6E499",
+      "issuer_file": "artifacts/cb6e15165ac802e9b3f993f16c25d41f4e81c21ebde71ae1b012ac00bf9c7c3f.der",
+      "issuer_sha256": "CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F",
+      "aliases": [
+        "evidence/attachment-9493666.crl"
+      ],
+      "source_annotation": "operator_reported_key_mismatch; actual signer unresolved",
+      "supplement": null
+    },
+    {
+      "id": "b4bd6c53587d7144",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_file": "artifacts/b4bd6c53587d714461f5e9bcd2ab3ca730dfc18ae9906d185ee94914c50bbe06.crl",
+      "crl_sha256": "B4BD6C53587D714461F5E9BCD2AB3CA730DFC18AE9906D185EE94914C50BBE06",
+      "issuer_file": "artifacts/432ec25f0d28de9006d97bf752f17bbb2cd41f669933fcb072d9a1148d0261f3.der",
+      "issuer_sha256": "432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3",
+      "aliases": [
+        "evidence/attachment-9493664.crl"
+      ],
+      "source_annotation": "operator_reported_key_mismatch; actual signer unresolved",
+      "supplement": null
+    },
+    {
+      "id": "defabddd5edfd857",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_file": "artifacts/defabddd5edfd8577cf9ff5af13025581e8ad0ca29eed55a460b16cf6b7aca44.crl",
+      "crl_sha256": "DEFABDDD5EDFD8577CF9FF5AF13025581E8AD0CA29EED55A460B16CF6B7ACA44",
+      "issuer_file": "artifacts/98b896625c0c230adeec3eb2cf6aad5001ecf9156a68644e82374ce5833bc25b.der",
+      "issuer_sha256": "98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B",
+      "aliases": [
+        "evidence/attachment-9493665.crl"
+      ],
+      "source_annotation": "operator_reported_key_mismatch; actual signer unresolved",
+      "supplement": null
+    },
+    {
+      "id": "ee0936ec39cbf546",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_file": "artifacts/ee0936ec39cbf54620f02a8a6d73220a9d174df15e5d1dd09f46fd199414580b.crl",
+      "crl_sha256": "EE0936EC39CBF54620F02A8A6D73220A9D174DF15E5D1DD09F46FD199414580B",
+      "issuer_file": "artifacts/e7568fe6e12331f4fd7de61da4c7559d0f8eb192a218d4741a3ba75184333838.der",
+      "issuer_sha256": "E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838",
+      "aliases": [
+        "evidence/attachment-9493661.crl",
+        "evidence/attachment-9493663.crl"
+      ],
+      "source_annotation": "operator_reported_key_mismatch; actual signer unresolved",
+      "supplement": null
+    },
+    {
+      "id": "9846bf9a4f213d8f",
+      "kind": "historical",
+      "group": "emudhra-g1-2026",
+      "crl_file": "artifacts/9846bf9a4f213d8fba87e79d464732b9cc35a784f7992334ec3bc6db2a6f7dbd.crl",
+      "crl_sha256": "9846BF9A4F213D8FBA87E79D464732B9CC35A784F7992334EC3BC6DB2A6F7DBD",
+      "issuer_file": "artifacts/cef71e70b7c29addf6c30cd19e614b38fd5f02a435a0eeddd0087e183d101a51.der",
+      "issuer_sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51",
+      "aliases": [
+        "evidence/attachment-9664144.zip!emsign-root-tls-g1-crl-11.crl"
+      ],
+      "source_annotation": "unresolved_reported_signature_failure",
+      "supplement": null
+    },
+    {
+      "id": "bd8f716ef9994931",
+      "kind": "historical",
+      "group": "emudhra-g1-2026",
+      "crl_file": "artifacts/bd8f716ef9994931446ce90537ce69e85637aaddcd8a3b34f668e362d8b3d950.crl",
+      "crl_sha256": "BD8F716EF9994931446CE90537CE69E85637AADDCD8A3B34F668E362D8B3D950",
+      "issuer_file": "artifacts/cef71e70b7c29addf6c30cd19e614b38fd5f02a435a0eeddd0087e183d101a51.der",
+      "issuer_sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51",
+      "aliases": [
+        "evidence/attachment-9664144.zip!emsign-root-tls-g1-crl-12.crl"
+      ],
+      "source_annotation": "signature_control_crl_12",
+      "supplement": null
+    },
+    {
+      "id": "08aecf318dafc24c",
+      "kind": "historical",
+      "group": "globalsign-2022",
+      "crl_file": "artifacts/08aecf318dafc24c25a4c2ef7a65a81462f3af6b906ae0a59fec1916d01df7b6.crl",
+      "crl_sha256": "08AECF318DAFC24C25A4C2EF7A65A81462F3AF6B906AE0A59FEC1916D01DF7B6",
+      "issuer_file": "artifacts/65eec0cc6c970cc1cd73659115dc8d904e6f12e6dc8fd4dda39d54cb30224780.der",
+      "issuer_sha256": "65EEC0CC6C970CC1CD73659115DC8D904E6F12E6DC8FD4DDA39D54CB30224780",
+      "aliases": [
+        "evidence/attachment-9296987.crl"
+      ],
+      "source_annotation": "reported_algorithm_declaration_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "0c07490e6c95c040",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/0c07490e6c95c040610f0e494cbd338c0841b3f3d8340621868d9ec56e5be56a.crl",
+      "crl_sha256": "0C07490E6C95C040610F0E494CBD338C0841B3F3D8340621868D9EC56E5BE56A",
+      "issuer_file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "aliases": [
+        "expansion/attachment-9398866.crl"
+      ],
+      "source_annotation": "reported_issuer_name_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "199c16b08784203b",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/199c16b08784203b8567d5380c6fa79affe99e3a706714bffa55f0ae800be9ca.crl",
+      "crl_sha256": "199C16B08784203B8567D5380C6FA79AFFE99E3A706714BFFA55F0AE800BE9CA",
+      "issuer_file": "artifacts/761503e31f5d1a48e1ecca91312dfc81c46265ba7feecf276f8c04d19264b93b.der",
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "aliases": [
+        "expansion/attachment-9399932.zip!globaltrust-2015-server-qualified-ev-2-20240403.crl"
+      ],
+      "source_annotation": "operator_supplied_signature_control",
+      "supplement": null
+    },
+    {
+      "id": "4ffb1ef225e46ad7",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/4ffb1ef225e46ad70b548128b83360d0b78741e97badf876982674a054007f27.crl",
+      "crl_sha256": "4FFB1EF225E46AD70B548128B83360D0B78741E97BADF876982674A054007F27",
+      "issuer_file": "artifacts/a5b27d844a0ecb68f1d065723202a2f07c667de96b84e68a9af234669397d6c4.der",
+      "issuer_sha256": "A5B27D844A0ECB68F1D065723202A2F07C667DE96B84E68A9AF234669397D6C4",
+      "aliases": [
+        "expansion/attachment-9399932.zip!globaltrust-2020-server-ev-1-20240429.crl"
+      ],
+      "source_annotation": "operator_supplied_signature_control",
+      "supplement": null
+    },
+    {
+      "id": "5882f3179f05ccd2",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/5882f3179f05ccd2cec03c078e61e86cbda704853aa135ec4aba748cd0908fee.crl",
+      "crl_sha256": "5882F3179F05CCD2CEC03C078E61E86CBDA704853AA135EC4ABA748CD0908FEE",
+      "issuer_file": "artifacts/761503e31f5d1a48e1ecca91312dfc81c46265ba7feecf276f8c04d19264b93b.der",
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "aliases": [
+        "expansion/attachment-9393737.crl"
+      ],
+      "source_annotation": "reported_issuer_name_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "a788a348b308b77f",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/a788a348b308b77fbe5bd9235199e85cdbab5323be87e6acd3654c9db6260025.crl",
+      "crl_sha256": "A788A348B308B77FBE5BD9235199E85CDBAB5323BE87E6ACD3654C9DB6260025",
+      "issuer_file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "aliases": [
+        "expansion/attachment-9405805.crl"
+      ],
+      "source_annotation": "reported_issuer_name_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "c86665ca6e470ae4",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/c86665ca6e470ae498120731b8d3f4910c92af8d80b63031d9877f880c7adbc2.crl",
+      "crl_sha256": "C86665CA6E470AE498120731B8D3F4910C92AF8D80B63031D9877F880C7ADBC2",
+      "issuer_file": "artifacts/761503e31f5d1a48e1ecca91312dfc81c46265ba7feecf276f8c04d19264b93b.der",
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "aliases": [
+        "expansion/attachment-9399932.zip!globaltrust-2015-server-qualified-ev-2-20240409.crl"
+      ],
+      "source_annotation": "operator_supplied_signature_control",
+      "supplement": null
+    },
+    {
+      "id": "dbd4918e839dd41a",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/dbd4918e839dd41a4801dbfa2f8ed1b1d71336508758974e715fea8246b4817e.crl",
+      "crl_sha256": "DBD4918E839DD41A4801DBFA2F8ED1B1D71336508758974E715FEA8246B4817E",
+      "issuer_file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "aliases": [
+        "expansion/attachment-9399932.zip!globaltrust-2020-server-ov-1.20240403.crl"
+      ],
+      "source_annotation": "operator_supplied_signature_control",
+      "supplement": null
+    },
+    {
+      "id": "e958c41fd6090b0d",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/e958c41fd6090b0d7517ee36361766c70ea73a4198fe2089094123b209522e73.crl",
+      "crl_sha256": "E958C41FD6090B0D7517EE36361766C70EA73A4198FE2089094123B209522E73",
+      "issuer_file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "aliases": [
+        "expansion/attachment-9399932.zip!globaltrust-2020-server-ov-1-20240409.crl"
+      ],
+      "source_annotation": "operator_supplied_signature_control",
+      "supplement": null
+    },
+    {
+      "id": "f2ef3946c3998a66",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/f2ef3946c3998a66c684699729a5ba511a54b549b573e7ab301750dc1ecc12a8.crl",
+      "crl_sha256": "F2EF3946C3998A66C684699729A5BA511A54B549B573E7AB301750DC1ECC12A8",
+      "issuer_file": "artifacts/af55b372ea64ff3080f31f8429913816deabaf390fc5d2ac271e9a9f62d8f575.der",
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "aliases": [
+        "expansion/attachment-9393738.crl"
+      ],
+      "source_annotation": "reported_issuer_name_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "fc886c4624582533",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_file": "artifacts/fc886c46245825339a9212be2c355f4a6b3bcd5b4513b2c3605e4b4e80bbbff1.crl",
+      "crl_sha256": "FC886C46245825339A9212BE2C355F4A6B3BCD5B4513B2C3605E4B4E80BBBFF1",
+      "issuer_file": "artifacts/761503e31f5d1a48e1ecca91312dfc81c46265ba7feecf276f8c04d19264b93b.der",
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "aliases": [
+        "expansion/attachment-9398867.crl"
+      ],
+      "source_annotation": "reported_issuer_name_mismatch",
+      "supplement": null
+    },
+    {
+      "id": "db5e49f8c70e53b7",
+      "kind": "historical",
+      "group": "itrus-2021",
+      "crl_file": "artifacts/db5e49f8c70e53b7876a7247016822c5660dc86c771deeb62ca1a64bb6d12dc2.crl",
+      "crl_sha256": "DB5E49F8C70E53B7876A7247016822C5660DC86C771DEEB62CA1A64BB6D12DC2",
+      "issuer_file": "artifacts/8a71de6559336f426c26e53880d00d88a18da4c6a91f0dcb6194e206c5c96387.der",
+      "issuer_sha256": "8A71DE6559336F426C26E53880D00D88A18DA4C6A91F0DCB6194E206C5C96387",
+      "aliases": [
+        "expansion/attachment-9223587.rar!Wrong ARL.crl"
+      ],
+      "source_annotation": "reported_signed_payload_mismatch",
+      "supplement": {
+        "type": "alternate_payload",
+        "file": "artifacts/bb99b0426bf90926e6ab085f345dbf5da5a3fd5d5e69cf933e525c17c401ab60.tbs",
+        "source": "expansion/attachment-9223587.rar!Wrong Signed TBSCertlist-HEX.txt"
+      }
+    },
+    {
+      "id": "3aa6d60e654365b3",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_file": "artifacts/3aa6d60e654365b3879ac9ff762ca866b4e042594f1a43ac7d9a7d42c8ddad30.crl",
+      "crl_sha256": "3AA6D60E654365B3879AC9FF762CA866B4E042594F1A43AC7D9A7D42C8DDAD30",
+      "issuer_file": "artifacts/f14fd30a342a679aee65f9fe6d8262996c50959f0f7d136d13085ea892b0621b.der",
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "aliases": [
+        "synthetic/normal"
+      ],
+      "source_annotation": "constructed_normal_control",
+      "supplement": null
+    },
+    {
+      "id": "7e7d7c053d5b26f4",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_file": "artifacts/7e7d7c053d5b26f449cb68d076abb7b5f73510e44b7d08d43f2c68d41a0bd392.crl",
+      "crl_sha256": "7E7D7C053D5B26F449CB68D076ABB7B5F73510E44B7D08D43F2C68D41A0BD392",
+      "issuer_file": "artifacts/f14fd30a342a679aee65f9fe6d8262996c50959f0f7d136d13085ea892b0621b.der",
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "aliases": [
+        "synthetic/changed-payload"
+      ],
+      "source_annotation": "constructed_changed_payload",
+      "supplement": {
+        "type": "alternate_payload",
+        "file": "artifacts/861047370d666576944df4cec0ded34b9543c6c597120359d1a88d085a200bf3.tbs",
+        "source": "synthetic/original-tbs.der"
+      }
+    },
+    {
+      "id": "bbe01cb591a399e3",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_file": "artifacts/bbe01cb591a399e34563be6c70a85289dc5779fe1a78dcf90cbbb40c5418e2c5.crl",
+      "crl_sha256": "BBE01CB591A399E34563BE6C70A85289DC5779FE1A78DCF90CBBB40C5418E2C5",
+      "issuer_file": "artifacts/f14fd30a342a679aee65f9fe6d8262996c50959f0f7d136d13085ea892b0621b.der",
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "aliases": [
+        "synthetic/wrong-key"
+      ],
+      "source_annotation": "constructed_wrong_signing_key",
+      "supplement": {
+        "type": "alternate_issuer",
+        "file": "artifacts/9b745f09502929952fc65f6cdf204bd8f99362831d6de2cabb656780db5b1804.der",
+        "source": "synthetic/B.der"
+      }
+    }
+  ]
+}

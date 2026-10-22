@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-10-22T17:21:36.798936+00:00",
+  "description": "Synthetic controls only. Keys A/B were local ephemeral keys, not public CA keys. Private keys discarded.",
+  "files": [
+    {
+      "file": "A.der",
+      "sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B"
+    },
+    {
+      "file": "B.der",
+      "sha256": "9B745F09502929952FC65F6CDF204BD8F99362831D6DE2CABB656780DB5B1804"
+    },
+    {
+      "file": "normal.crl",
+      "sha256": "3AA6D60E654365B3879AC9FF762CA866B4E042594F1A43AC7D9A7D42C8DDAD30"
+    },
+    {
+      "file": "wrong-key.crl",
+      "sha256": "BBE01CB591A399E34563BE6C70A85289DC5779FE1A78DCF90CBBB40C5418E2C5"
+    },
+    {
+      "file": "changed-payload.crl",
+      "sha256": "7E7D7C053D5B26F449CB68D076ABB7B5F73510E44B7D08D43F2C68D41A0BD392"
+    },
+    {
+      "file": "original-tbs.der",
+      "sha256": "861047370D666576944DF4CEC0DED34B9543C6C597120359D1A88D085A200BF3"
+    }
+  ]
+}

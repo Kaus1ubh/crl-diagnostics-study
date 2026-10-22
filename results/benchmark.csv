@@ -1,0 +1,23 @@
+id,kind,group,issuer_name,key_identifiers,algorithm_consistency,raw_signature,openssl_crl,diagnosis,source_annotation,supplement_type,supplement_status
+51f51b048f0b653e,historical,emudhra-2025,pass,pass,pass,fail,fail,unresolved_signature_failure,operator_reported_key_mismatch; actual signer unresolved,,
+9a5fd274516a605f,historical,emudhra-2025,pass,pass,pass,fail,fail,unresolved_signature_failure,operator_reported_key_mismatch; actual signer unresolved,,
+b4bd6c53587d7144,historical,emudhra-2025,pass,pass,pass,fail,fail,unresolved_signature_failure,operator_reported_key_mismatch; actual signer unresolved,,
+defabddd5edfd857,historical,emudhra-2025,pass,pass,pass,fail,fail,unresolved_signature_failure,operator_reported_key_mismatch; actual signer unresolved,,
+ee0936ec39cbf546,historical,emudhra-2025,pass,pass,pass,fail,fail,unresolved_signature_failure,operator_reported_key_mismatch; actual signer unresolved,,
+9846bf9a4f213d8f,historical,emudhra-g1-2026,pass,pass,pass,fail,fail,unresolved_signature_failure,unresolved_reported_signature_failure,,
+bd8f716ef9994931,historical,emudhra-g1-2026,pass,pass,pass,pass,pass,no_failure_in_five_checks,signature_control_crl_12,,
+08aecf318dafc24c,historical,globalsign-2022,pass,pass,fail,pass,fail,verified_signature_algorithm_mismatch,reported_algorithm_declaration_mismatch,,
+0c07490e6c95c040,historical,globaltrust-2024,fail,pass,pass,pass,fail,verified_signature_issuer_name_mismatch,reported_issuer_name_mismatch,,
+199c16b08784203b,historical,globaltrust-2024,pass,pass,pass,pass,pass,no_failure_in_five_checks,operator_supplied_signature_control,,
+4ffb1ef225e46ad7,historical,globaltrust-2024,pass,pass,pass,pass,pass,no_failure_in_five_checks,operator_supplied_signature_control,,
+5882f3179f05ccd2,historical,globaltrust-2024,fail,pass,pass,pass,fail,verified_signature_issuer_name_mismatch,reported_issuer_name_mismatch,,
+a788a348b308b77f,historical,globaltrust-2024,fail,pass,pass,pass,fail,verified_signature_issuer_name_mismatch,reported_issuer_name_mismatch,,
+c86665ca6e470ae4,historical,globaltrust-2024,pass,pass,pass,pass,pass,no_failure_in_five_checks,operator_supplied_signature_control,,
+dbd4918e839dd41a,historical,globaltrust-2024,pass,pass,pass,pass,pass,no_failure_in_five_checks,operator_supplied_signature_control,,
+e958c41fd6090b0d,historical,globaltrust-2024,pass,pass,pass,pass,pass,no_failure_in_five_checks,operator_supplied_signature_control,,
+f2ef3946c3998a66,historical,globaltrust-2024,fail,pass,pass,pass,fail,verified_signature_issuer_name_mismatch,reported_issuer_name_mismatch,,
+fc886c4624582533,historical,globaltrust-2024,fail,pass,pass,pass,fail,verified_signature_issuer_name_mismatch,reported_issuer_name_mismatch,,
+db5e49f8c70e53b7,historical,itrus-2021,pass,pass,pass,fail,fail,unresolved_signature_failure,reported_signed_payload_mismatch,alternate_payload,pass
+3aa6d60e654365b3,synthetic,synthetic-local,pass,pass,pass,pass,pass,no_failure_in_five_checks,constructed_normal_control,,
+7e7d7c053d5b26f4,synthetic,synthetic-local,pass,pass,pass,fail,fail,unresolved_signature_failure,constructed_changed_payload,alternate_payload,pass
+bbe01cb591a399e3,synthetic,synthetic-local,pass,pass,pass,fail,fail,unresolved_signature_failure,constructed_wrong_signing_key,alternate_issuer,pass

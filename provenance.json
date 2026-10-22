@@ -1,0 +1,461 @@
+{
+  "note": "Source URLs and transformations; byte hashes and stated pairings are fixed in benchmark/cases.json.",
+  "cases": [
+    {
+      "case_id": "51f51b048f0b653e",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_sha256": "51F51B048F0B653E6953F8A8884DB6D78A29A513280B299D7B4AD14E55B5A2DE",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9493662.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493662"
+        }
+      ],
+      "issuer_sha256": "0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19",
+      "issuer_sources": [
+        {
+          "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+          "record_sha256": "0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C30934D19",
+          "conversion": "PEM to DER"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "9a5fd274516a605f",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_sha256": "9A5FD274516A605F9E02F3593AFEA0EA8CB64FCE4FE45CC839FCFADD2FD6E499",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9493666.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493666"
+        }
+      ],
+      "issuer_sha256": "CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F",
+      "issuer_sources": [
+        {
+          "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+          "record_sha256": "CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C7C3F",
+          "conversion": "PEM to DER"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "b4bd6c53587d7144",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_sha256": "B4BD6C53587D714461F5E9BCD2AB3CA730DFC18AE9906D185EE94914C50BBE06",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9493664.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493664"
+        }
+      ],
+      "issuer_sha256": "432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3",
+      "issuer_sources": [
+        {
+          "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+          "record_sha256": "432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D0261F3",
+          "conversion": "PEM to DER"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "defabddd5edfd857",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_sha256": "DEFABDDD5EDFD8577CF9FF5AF13025581E8AD0CA29EED55A460B16CF6B7ACA44",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9493665.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493665"
+        }
+      ],
+      "issuer_sha256": "98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B",
+      "issuer_sources": [
+        {
+          "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+          "record_sha256": "98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833BC25B",
+          "conversion": "PEM to DER"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "ee0936ec39cbf546",
+      "kind": "historical",
+      "group": "emudhra-2025",
+      "crl_sha256": "EE0936EC39CBF54620F02A8A6D73220A9D174DF15E5D1DD09F46FD199414580B",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9493661.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493661"
+        },
+        {
+          "alias": "evidence/attachment-9493663.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9493663"
+        }
+      ],
+      "issuer_sha256": "E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838",
+      "issuer_sources": [
+        {
+          "url": "https://emudhra.we-have-a-problem.com/impacted-intermediates.json",
+          "record_sha256": "E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA75184333838",
+          "conversion": "PEM to DER"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "9846bf9a4f213d8f",
+      "kind": "historical",
+      "group": "emudhra-g1-2026",
+      "crl_sha256": "9846BF9A4F213D8FBA87E79D464732B9CC35A784F7992334EC3BC6DB2A6F7DBD",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9664144.zip!emsign-root-tls-g1-crl-11.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9664144",
+          "archive_member": "emsign-root-tls-g1-crl-11.crl"
+        }
+      ],
+      "issuer_sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51",
+      "issuer_sources": [
+        {
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9664144",
+          "archive_member": "emsign-root-tls-g1-root.crt.pem"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "bd8f716ef9994931",
+      "kind": "historical",
+      "group": "emudhra-g1-2026",
+      "crl_sha256": "BD8F716EF9994931446CE90537CE69E85637AADDCD8A3B34F668E362D8B3D950",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9664144.zip!emsign-root-tls-g1-crl-12.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9664144",
+          "archive_member": "emsign-root-tls-g1-crl-12.crl"
+        }
+      ],
+      "issuer_sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51",
+      "issuer_sources": [
+        {
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9664144",
+          "archive_member": "emsign-root-tls-g1-root.crt.pem"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "08aecf318dafc24c",
+      "kind": "historical",
+      "group": "globalsign-2022",
+      "crl_sha256": "08AECF318DAFC24C25A4C2EF7A65A81462F3AF6B906AE0A59FEC1916D01DF7B6",
+      "sources": [
+        {
+          "alias": "evidence/attachment-9296987.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9296987"
+        }
+      ],
+      "issuer_sha256": "65EEC0CC6C970CC1CD73659115DC8D904E6F12E6DC8FD4DDA39D54CB30224780",
+      "issuer_sources": [
+        {
+          "url": "https://secure.globalsign.com/cacert/gsoveccg4r3.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "0c07490e6c95c040",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "0C07490E6C95C040610F0E494CBD338C0841B3F3D8340621868D9EC56E5BE56A",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9398866.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9398866"
+        }
+      ],
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "199c16b08784203b",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "199C16B08784203B8567D5380C6FA79AFFE99E3A706714BFFA55F0AE800BE9CA",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9399932.zip!globaltrust-2015-server-qualified-ev-2-20240403.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2015-server-qualified-ev-2-20240403.crl"
+        }
+      ],
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2015-server-qualified-ev-2.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "4ffb1ef225e46ad7",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "4FFB1EF225E46AD70B548128B83360D0B78741E97BADF876982674A054007F27",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9399932.zip!globaltrust-2020-server-ev-1-20240429.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2020-server-ev-1-20240429.crl"
+        }
+      ],
+      "issuer_sha256": "A5B27D844A0ECB68F1D065723202A2F07C667DE96B84E68A9AF234669397D6C4",
+      "issuer_sources": [
+        {
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2020-server-ev-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "5882f3179f05ccd2",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "5882F3179F05CCD2CEC03C078E61E86CBDA704853AA135EC4ABA748CD0908FEE",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9393737.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9393737"
+        }
+      ],
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2015-server-qualified-ev-2.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "a788a348b308b77f",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "A788A348B308B77FBE5BD9235199E85CDBAB5323BE87E6ACD3654C9DB6260025",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9405805.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9405805"
+        }
+      ],
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "c86665ca6e470ae4",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "C86665CA6E470AE498120731B8D3F4910C92AF8D80B63031D9877F880C7ADBC2",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9399932.zip!globaltrust-2015-server-qualified-ev-2-20240409.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2015-server-qualified-ev-2-20240409.crl"
+        }
+      ],
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2015-server-qualified-ev-2.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "dbd4918e839dd41a",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "DBD4918E839DD41A4801DBFA2F8ED1B1D71336508758974E715FEA8246B4817E",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9399932.zip!globaltrust-2020-server-ov-1.20240403.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2020-server-ov-1.20240403.crl"
+        }
+      ],
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "e958c41fd6090b0d",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "E958C41FD6090B0D7517EE36361766C70EA73A4198FE2089094123B209522E73",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9399932.zip!globaltrust-2020-server-ov-1-20240409.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+          "archive_member": "globaltrust-2020-server-ov-1-20240409.crl"
+        }
+      ],
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "f2ef3946c3998a66",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "F2EF3946C3998A66C684699729A5BA511A54B549B573E7AB301750DC1ECC12A8",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9393738.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9393738"
+        }
+      ],
+      "issuer_sha256": "AF55B372EA64FF3080F31F8429913816DEABAF390FC5D2AC271E9A9F62D8F575",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "fc886c4624582533",
+      "kind": "historical",
+      "group": "globaltrust-2024",
+      "crl_sha256": "FC886C46245825339A9212BE2C355F4A6B3BCD5B4513B2C3605E4B4E80BBBFF1",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9398867.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9398867"
+        }
+      ],
+      "issuer_sha256": "761503E31F5D1A48E1ECCA91312DFC81C46265BA7FEECF276F8C04D19264B93B",
+      "issuer_sources": [
+        {
+          "url": "https://service.globaltrust.eu/static/globaltrust-2015-server-qualified-ev-2.crt"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "db5e49f8c70e53b7",
+      "kind": "historical",
+      "group": "itrus-2021",
+      "crl_sha256": "DB5E49F8C70E53B7876A7247016822C5660DC86C771DEEB62CA1A64BB6D12DC2",
+      "sources": [
+        {
+          "alias": "expansion/attachment-9223587.rar!Wrong ARL.crl",
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9223587",
+          "archive_member": "Wrong ARL.crl"
+        }
+      ],
+      "issuer_sha256": "8A71DE6559336F426C26E53880D00D88A18DA4C6A91F0DCB6194E206C5C96387",
+      "issuer_sources": [
+        {
+          "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9223587",
+          "archive_member": "RSA Root.cer"
+        }
+      ],
+      "supplement": {
+        "type": "alternate_payload",
+        "file": "artifacts/bb99b0426bf90926e6ab085f345dbf5da5a3fd5d5e69cf933e525c17c401ab60.tbs",
+        "source": "expansion/attachment-9223587.rar!Wrong Signed TBSCertlist-HEX.txt"
+      }
+    },
+    {
+      "case_id": "3aa6d60e654365b3",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_sha256": "3AA6D60E654365B3879AC9FF762CA866B4E042594F1A43AC7D9A7D42C8DDAD30",
+      "sources": [
+        {
+          "alias": "synthetic/normal",
+          "source": "Locally generated control; see generate_benchmark_controls.py"
+        }
+      ],
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "issuer_sources": [
+        {
+          "source": "Local synthetic A.der; private key discarded"
+        }
+      ],
+      "supplement": null
+    },
+    {
+      "case_id": "7e7d7c053d5b26f4",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_sha256": "7E7D7C053D5B26F449CB68D076ABB7B5F73510E44B7D08D43F2C68D41A0BD392",
+      "sources": [
+        {
+          "alias": "synthetic/changed-payload",
+          "source": "Locally generated control; see generate_benchmark_controls.py"
+        }
+      ],
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "issuer_sources": [
+        {
+          "source": "Local synthetic A.der; private key discarded"
+        }
+      ],
+      "supplement": {
+        "type": "alternate_payload",
+        "file": "artifacts/861047370d666576944df4cec0ded34b9543c6c597120359d1a88d085a200bf3.tbs",
+        "source": "synthetic/original-tbs.der"
+      }
+    },
+    {
+      "case_id": "bbe01cb591a399e3",
+      "kind": "synthetic",
+      "group": "synthetic-local",
+      "crl_sha256": "BBE01CB591A399E34563BE6C70A85289DC5779FE1A78DCF90CBBB40C5418E2C5",
+      "sources": [
+        {
+          "alias": "synthetic/wrong-key",
+          "source": "Locally generated control; see generate_benchmark_controls.py"
+        }
+      ],
+      "issuer_sha256": "F14FD30A342A679AEE65F9FE6D8262996C50959F0F7D136D13085EA892B0621B",
+      "issuer_sources": [
+        {
+          "source": "Local synthetic A.der; private key discarded"
+        }
+      ],
+      "supplement": {
+        "type": "alternate_issuer",
+        "file": "artifacts/9b745f09502929952fc65f6cdf204bd8f99362831d6de2cabb656780db5b1804.der",
+        "source": "synthetic/B.der"
+      }
+    }
+  ]
+}

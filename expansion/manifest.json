@@ -1,0 +1,347 @@
+{
+  "started_at": "2026-10-22T16:58:08.548856+00:00",
+  "files": [
+    {
+      "file": "bug-search-crl.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug?product=CA+Program&component=CA+Certificate+Compliance&summary=CRL&include_fields=id%2Csummary%2Ccreation_time%2Cstatus%2Cresolution&limit=500",
+      "bytes": 27946,
+      "sha256": "9d4fb679c2ba52f0f567ac1f18dcfdba8f0deec98fb369212cbe6c95b3b0f194",
+      "retrieved_at": "2026-10-22T16:58:08.562145+00:00"
+    },
+    {
+      "file": "comments-1712664.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1712664/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 38136,
+      "sha256": "99809ca1a3e3587809ced06c693f8e601c643a28a41d122204159c6792c8b179",
+      "retrieved_at": "2026-10-22T16:58:09.653782+00:00"
+    },
+    {
+      "file": "attachments-1712664.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1712664/attachment?exclude_fields=data",
+      "bytes": 599,
+      "sha256": "8fb7c6f60eebe973590420caef4af62d5345395304fcb2e8ed970d8196efc21b",
+      "retrieved_at": "2026-10-22T16:58:09.654443+00:00"
+    },
+    {
+      "file": "comments-1827490.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1827490/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 9979,
+      "sha256": "fbdfadb698000dd78798607d0e401c0c30d4b7f5bd1905c9c2c11c18c9e27755",
+      "retrieved_at": "2026-10-22T16:58:11.122748+00:00"
+    },
+    {
+      "file": "attachments-1827490.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1827490/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "e9e5d959311295bb466ad88b708e3b354ab26e2f80922520e320f151cd06aeb8",
+      "retrieved_at": "2026-10-22T16:58:11.123673+00:00"
+    },
+    {
+      "file": "comments-1828717.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1828717/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 5911,
+      "sha256": "b7253b7a8af1059db198e9447fdcbae2a9cac4c6a0389b5dca48d37c83c76ce5",
+      "retrieved_at": "2026-10-22T16:58:12.017530+00:00"
+    },
+    {
+      "file": "attachments-1828717.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1828717/attachment?exclude_fields=data",
+      "bytes": 663,
+      "sha256": "1d372c6dc032bcda31c07b44a30b6ec3d5e32e9d952f184f39d0bf7c23d942e6",
+      "retrieved_at": "2026-10-22T16:58:12.018298+00:00"
+    },
+    {
+      "file": "comments-1829024.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1829024/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 3719,
+      "sha256": "7b60996cb30cae52b8eee319c99e8dddbfe6e87b9c643472d3896ee57a1eb71b",
+      "retrieved_at": "2026-10-22T16:58:13.349041+00:00"
+    },
+    {
+      "file": "attachments-1829024.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1829024/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "b2d08ed1efe4719578e30f1c9a2ef981508a24d403934c0082558e08952f2a51",
+      "retrieved_at": "2026-10-22T16:58:13.349756+00:00"
+    },
+    {
+      "file": "comments-1843173.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1843173/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 7083,
+      "sha256": "a7ef9d207c6b29f8ff17b3344497dd80d490a081453f78d2caafd0c8b67c522a",
+      "retrieved_at": "2026-10-22T16:58:13.452405+00:00"
+    },
+    {
+      "file": "attachments-1843173.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1843173/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "0de2bd6b9348088112f4a4ecf10b3f35c13e7573a1ce7fb5fb4271a81fe482e7",
+      "retrieved_at": "2026-10-22T16:58:14.359987+00:00"
+    },
+    {
+      "file": "comments-1863122.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1863122/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 4651,
+      "sha256": "f9630e08098907355d62d9b545ce496f2bdbd73409af3ba4b0fc93fba68c2177",
+      "retrieved_at": "2026-10-22T16:58:14.773086+00:00"
+    },
+    {
+      "file": "attachments-1863122.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1863122/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "724cbce8010ccf83f19942436f6ff474972c45210f0f226d8c6d6ec6ceef62e8",
+      "retrieved_at": "2026-10-22T16:58:15.281874+00:00"
+    },
+    {
+      "file": "comments-1888371.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1888371/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 18898,
+      "sha256": "59712e998cff54a5fcc86fcfb2a82674ab7ffc25ea76bc660e9f0954cb4a7b35",
+      "retrieved_at": "2026-10-22T16:58:15.603427+00:00"
+    },
+    {
+      "file": "attachments-1888371.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1888371/attachment?exclude_fields=data",
+      "bytes": 3710,
+      "sha256": "857b0f0698c2851a1e28e7536278e24f5cb031b4b52c9d16cf7300dee559fd78",
+      "retrieved_at": "2026-10-22T16:58:16.050507+00:00"
+    },
+    {
+      "file": "comments-1900129.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1900129/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 13551,
+      "sha256": "a1edc3a689f771e45cc7794a5cfbb3fdd7b5a40b42e15d459d60f93d17558671",
+      "retrieved_at": "2026-10-22T16:58:16.438733+00:00"
+    },
+    {
+      "file": "attachments-1900129.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/1900129/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "861fff48471372d10451639499f7d0e7d63fde2c545aa5de13be16d0954ebc9e",
+      "retrieved_at": "2026-10-22T16:58:17.009211+00:00"
+    },
+    {
+      "file": "comments-2033412.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2033412/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 17317,
+      "sha256": "017ad0359dc2dada3fbece1b8d81afa1e974a230cbe6c6b9f5619528863997cc",
+      "retrieved_at": "2026-10-22T16:58:17.253967+00:00"
+    },
+    {
+      "file": "attachments-2033412.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2033412/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "a8e09bcdbb9b488b1847e46a16d87138261f76f52c0c39d077680d2018beb351",
+      "retrieved_at": "2026-10-22T16:58:17.827323+00:00"
+    },
+    {
+      "file": "comments-2075242.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075242/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 12285,
+      "sha256": "4f7491eb0f69bcb3b67fd4eb5780d449f2549b8a28ee2bb4745e118f81a08ffd",
+      "retrieved_at": "2026-10-22T16:58:18.027818+00:00"
+    },
+    {
+      "file": "attachments-2075242.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075242/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "166b0f31aeaf42473f280df7424ad40ed972d20f40089acce611e7f314fc8d16",
+      "retrieved_at": "2026-10-22T16:58:18.701931+00:00"
+    },
+    {
+      "file": "comments-2075488.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075488/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 22090,
+      "sha256": "fa8c22affc244a741404a6f86363bd9eaad77cde3f4e2fe66822fa12c2a46fe5",
+      "retrieved_at": "2026-10-22T16:58:18.782820+00:00"
+    },
+    {
+      "file": "comments-2075819.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075819/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 14914,
+      "sha256": "2760f4a471ee72f1cd4c206237b5e164f6b1d81e68d09e654b5d470d0ab511cd",
+      "retrieved_at": "2026-10-22T16:58:19.499214+00:00"
+    },
+    {
+      "file": "attachments-2075819.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075819/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "a3243f73a4f0f65c9b5ae25cc81adec5cf2402ece5633d696d757f30da00c929",
+      "retrieved_at": "2026-10-22T16:58:20.604343+00:00"
+    },
+    {
+      "file": "comments-2076246.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2076246/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 9554,
+      "sha256": "43193112cdfa16083c20f8b2e9517adec47bd5a56c3f19b7e0350ae146758579",
+      "retrieved_at": "2026-10-22T16:58:20.811880+00:00"
+    },
+    {
+      "file": "attachments-2076246.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2076246/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "4f9549a8807f3b297f340df73b6a24a2dd10fe05fd1eb83341249cdd194f5e5f",
+      "retrieved_at": "2026-10-22T16:58:22.083235+00:00"
+    },
+    {
+      "file": "comments-2077101.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2077101/comment?include_fields=id,count,creation_time,text,attachment_id,is_private",
+      "bytes": 14858,
+      "sha256": "cb428a7053ed6a2fa17a7aac6a4013d1f61805c52c1ef9976ed4539d64a890c6",
+      "retrieved_at": "2026-10-22T16:58:22.246467+00:00"
+    },
+    {
+      "file": "attachments-2077101.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2077101/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "1bf0c1ed3923e5e582cec89b5cb59cc64659ccb3662ad1068a8a24c302ece46f",
+      "retrieved_at": "2026-10-22T16:58:22.995739+00:00"
+    },
+    {
+      "file": "attachments-2075488.json",
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075488/attachment?exclude_fields=data",
+      "bytes": 40,
+      "sha256": "9ffe37827bf6252ed2f5029e7ddb83719d31ea6680e6b8d94dcc395848adb561",
+      "retrieved_at": "2026-10-22T16:59:18.242955+00:00"
+    },
+    {
+      "file": "attachment-9223587.rar",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9223587",
+      "bytes": 2643,
+      "sha256": "b6b4062f194675193f72c41cb983d479180d3ee605c25201064346dc59f43944",
+      "retrieved_at": "2026-10-22T16:59:18.785015+00:00"
+    },
+    {
+      "file": "attachment-9393737.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9393737",
+      "bytes": 1237,
+      "sha256": "5882f3179f05ccd2cec03c078e61e86cbda704853aa135ec4aba748cd0908fee",
+      "retrieved_at": "2026-10-22T16:59:19.874964+00:00"
+    },
+    {
+      "file": "attachment-9393738.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9393738",
+      "bytes": 1554,
+      "sha256": "f2ef3946c3998a66c684699729a5ba511a54b549b573e7ab301750dc1ecc12a8",
+      "retrieved_at": "2026-10-22T16:59:20.616162+00:00"
+    },
+    {
+      "file": "attachment-9398866.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9398866",
+      "bytes": 1554,
+      "sha256": "0c07490e6c95c040610f0e494cbd338c0841b3f3d8340621868d9ec56e5be56a",
+      "retrieved_at": "2026-10-22T16:59:21.124589+00:00"
+    },
+    {
+      "file": "attachment-9398867.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9398867",
+      "bytes": 1237,
+      "sha256": "fc886c46245825339a9212be2c355f4a6b3bcd5b4513b2c3605e4b4e80bbbff1",
+      "retrieved_at": "2026-10-22T16:59:22.498221+00:00"
+    },
+    {
+      "file": "attachment-9399932.zip",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9399932",
+      "bytes": 8446,
+      "sha256": "48da39e58cf8cf0fef21156612625148a24f0938674461e5159ca0fed9839565",
+      "retrieved_at": "2026-10-22T16:59:22.561631+00:00"
+    },
+    {
+      "file": "attachment-9405805.crl",
+      "url": "https://bugzilla.mozilla.org/attachment.cgi?id=9405805",
+      "bytes": 1554,
+      "sha256": "a788a348b308b77fbe5bd9235199e85cdbab5323be87e6acd3654c9db6260025",
+      "retrieved_at": "2026-10-22T16:59:23.735866+00:00"
+    },
+    {
+      "file": "gcs-prefix-202505.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o?delimiter=%2F&prefix=202505&maxResults=1000",
+      "bytes": 32,
+      "sha256": "c3388ed74e1296bcc7f0f38033f2bf7f9ac2798c6c003f0df4d1f37d31e16057"
+    },
+    {
+      "file": "gcs-prefix-202610.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o?delimiter=%2F&prefix=202610&maxResults=1000",
+      "bytes": 888,
+      "sha256": "075b8469a7e6b8d192c270b8765e65c2f0506ebde78fabb27a9a6571c7c86d52"
+    },
+    {
+      "file": "orc-index.html",
+      "url": "https://crl-server.orc.com/CRLs/",
+      "bytes": 10144,
+      "sha256": "ac87240fb6fd58716ce9d54bb20006beae2ea71485a7b719154431b01f50f282"
+    },
+    {
+      "file": "orc-2005-aces-crls.tar.gz",
+      "url": "https://crl-server.orc.com/CRLs/2005-aces-crls.tar.gz",
+      "bytes": 441417,
+      "sha256": "88148800e17aab36ccf3654e33f3d284ef4a1fe0f11ba75a100a70d22b0bb7dc"
+    },
+    {
+      "file": "gcs-20261014-0-listing.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o?delimiter=%2F&prefix=20261014-0%2F&maxResults=1000",
+      "bytes": 5903,
+      "sha256": "1a1f76ba2351a45f458d5696ee62acedd61f66126cc4577693cb9818202ef51f"
+    },
+    {
+      "file": "gcs-20261018-0-listing.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o?delimiter=%2F&prefix=20261018-0%2F&maxResults=1000",
+      "bytes": 5903,
+      "sha256": "8c47e37953a44712013f64b9f38e3bb0a6500231e6fe2d802eae0afcf80a22a3"
+    },
+    {
+      "file": "gcs-20261014-0-audit-metadata.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o/20261014-0%2Fcrl-audit.json",
+      "bytes": 880,
+      "sha256": "d098b28d9ff632bc7e095e5c474bf63836cdf38627d3584283cf0ca5ecfc3c23"
+    },
+    {
+      "file": "20261014-0-crl-audit.json",
+      "url": "https://storage.googleapis.com/download/storage/v1/b/crlite-filters-prod/o/20261014-0%2Fcrl-audit.json?generation=1791941923961929&alt=media",
+      "bytes": 11203198,
+      "sha256": "604870b023b25c937c820147ff9227e865d660731fdf7c4b82cfd28d7e8d48c4"
+    },
+    {
+      "file": "gcs-20261015-0-audit-metadata.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o/20261015-0%2Fcrl-audit.json",
+      "bytes": 880,
+      "sha256": "84d5316ccf3a061870dcb8c613c9ccb7194e64125c55de6947a6fd3c5fee7b4f"
+    },
+    {
+      "file": "20261015-0-crl-audit.json",
+      "url": "https://storage.googleapis.com/download/storage/v1/b/crlite-filters-prod/o/20261015-0%2Fcrl-audit.json?generation=1792028956219545&alt=media",
+      "bytes": 11213800,
+      "sha256": "ab43a024440a1fe2a3168c55cd48c3571deec696c09aaaac72df300c422a8c2b"
+    },
+    {
+      "file": "gcs-20261018-0-audit-metadata.json",
+      "url": "https://storage.googleapis.com/storage/v1/b/crlite-filters-prod/o/20261018-0%2Fcrl-audit.json",
+      "bytes": 880,
+      "sha256": "4960cd8663497e459ab4ad9b8b53286cc6a554e686da2429bd8e0b8d3f593119"
+    },
+    {
+      "file": "20261018-0-crl-audit.json",
+      "url": "https://storage.googleapis.com/download/storage/v1/b/crlite-filters-prod/o/20261018-0%2Fcrl-audit.json?generation=1792287998931420&alt=media",
+      "bytes": 11214340,
+      "sha256": "c3a8c0e8b0a7b72425f02ae45e99d6fe636770f35834328b62880aca071cd056"
+    },
+    {
+      "file": "globaltrust-2020-server-ov-1.crt",
+      "url": "https://service.globaltrust.eu/static/globaltrust-2020-server-ov-1.crt",
+      "bytes": 2490,
+      "sha256": "a7a316c9de7eac6ed0fe48ee888282d25c38a26fdc4655fa2069536f4a63cdbc"
+    },
+    {
+      "file": "globaltrust-2015-server-qualified-ev-2.crt",
+      "url": "https://service.globaltrust.eu/static/globaltrust-2015-server-qualified-ev-2.crt",
+      "bytes": 2726,
+      "sha256": "f8310a32c09b0a2933859f698bee099419d43e61c2e53434d0509945cfe4717f"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://bugzilla.mozilla.org/rest/bug/2075488/attachment?exclude_fields=data",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
