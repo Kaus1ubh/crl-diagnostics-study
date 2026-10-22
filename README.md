@@ -1,16 +1,17 @@
 # CRL diagnostics study
 
-A reproducible retrospective study of **19 distinct historical certificate
-revocation lists (CRLs)** from five incident groups across four operators, plus
-three separately counted synthetic controls.
+I collected **19 distinct historical certificate revocation lists (CRLs)** from
+five incident groups across four operators. I added three synthetic controls
+to test what five diagnostic checks can tell us about a failure.
 
-By [Kaustubh Singh](https://kaustu.bh). Read the accompanying article:
+The checks distinguish some issuer-name and algorithm errors. Seven historical
+signatures remain unresolved. I wrote up the cases in
 [What a broken CRL can tell you](https://kaustu.bh/blog/what-a-broken-crl-can-tell-you).
 
 ## Run offline
 
-Requires Python 3.12+ and OpenSSL 3 on PATH. No Python packages, network access,
-CA account, private keys or original archive extraction are required.
+Requires Python 3.12+ and OpenSSL 3 on PATH. The runner uses Python's standard
+library and the included fixtures. It runs offline.
 
 ```sh
 git clone https://github.com/Kaus1ubh/crl-diagnostics-study.git
@@ -19,16 +20,12 @@ python run_benchmark.py
 python -m unittest discover -s . -p test_benchmark.py -v
 ```
 
-The runner verifies the protocol and fixture hashes, then writes
-`results/benchmark.json` and `results/benchmark.csv`. A repeat run changes the
-timestamp, engine version and possibly diagnostic wording. The committed outputs
-record the original OpenSSL 3.6.3 run. The eight tests exercise the frozen input
-hashes, controls, algorithm mismatch and treatment of tool errors.
+The runner verifies the protocol and fixture hashes, then overwrites
+`results/benchmark.json` and `results/benchmark.csv`. The committed results were
+recorded with OpenSSL 3.6.3. Your run will have a new timestamp; the engine version
+and diagnostic wording may also differ.
 
-These are signature diagnostics, not current-time trust decisions. The
-synthetic certificates can expire without invalidating this experiment.
-
-## What the checks establish
+## Historical results
 
 | Historical result | Distinct CRLs |
 | --- | ---: |
@@ -38,64 +35,53 @@ synthetic certificates can expire without invalidating this experiment.
 | No failure in the five checks | 6 |
 | Total | 19 |
 
-The five checks compare issuer DER bytes, AKI/SKI, limited algorithm
-consistency, the original raw signature and normal OpenSSL CRL verification.
-The issuer certificate is stated in advance from source context.
+I chose each issuer certificate from the source material before running the
+checks. They compare issuer DER bytes, AKI/SKI, limited algorithm consistency,
+the original raw signature and normal OpenSSL CRL verification.
 
-A wrong-key synthetic control and a changed-payload synthetic control have
-identical five-check categorical results. Their detailed RSA errors differ.
-This demonstrates ambiguity in that summary, not indistinguishability of all
-available evidence. Extra source artifacts can resolve a cause: the iTrusChina
-signature verifies over the operator-supplied alternate signed payload.
+The wrong-key and changed-payload controls produce identical five-check results.
+Their detailed RSA errors differ, so the ambiguity applies only to that summary.
+For iTrusChina, the operator supplied an alternate signed payload. The original
+signature verifies over those bytes, which helps establish the cause.
 
-Read [BENCHMARK_REPORT.md](BENCHMARK_REPORT.md) for the incident-group results
-and interpretation, and [BENCHMARK_PROTOCOL.md](BENCHMARK_PROTOCOL.md) for the
-frozen definitions. Labels from incident reports are carried separately from
-computed diagnoses.
+The [report](BENCHMARK_REPORT.md) explains each incident group. The
+[protocol](BENCHMARK_PROTOCOL.md) defines the checks. Incident-report annotations
+are kept separate from computed diagnoses.
 
 ## Limits
 
-- Retrospective convenience sample; cases were inspected before the protocol
-  was fixed. This is not a blinded evaluation or estimate of accuracy or prevalence.
-- Five incident groups are correlated collections, not 19 independent trials.
-- Strict issuer-name byte equality is not general semantic DN equivalence.
-- Algorithm consistency is not a complete lint/profile check. Time validity,
-  CRL scope, certificate-path trust and other requirements are outside scope.
-- Failed verification does not establish an actual signer or key compromise.
-  Passing these checks does not establish full conformance.
-- No new vulnerability, early-warning predictor or novel upstream test gap is
-  claimed. Existing x509-limbo cases already cover invalid CRL signatures and
-  wrong signing keys.
+- I inspected the cases before fixing the protocol. The sample cannot estimate
+  accuracy, prevalence or the probability of later compromise. Cases within an
+  incident group are correlated.
+- Issuer names are compared by exact bytes. Algorithm checks omit parameter
+  and policy requirements. Time validity, CRL scope and certificate-path trust
+  are outside scope; expiry of a synthetic certificate does not affect these checks.
+- A failed signature alone does not establish the signer or key compromise.
+  Passing the five checks does not establish full CRL conformance.
+- I haven't found a new vulnerability or upstream test gap. Existing
+  [x509-limbo cases](https://x509-limbo.com/testcases/crl/) cover invalid CRL
+  signatures and wrong signing keys.
 
 ## Files and provenance
 
-- `benchmark/cases.json`: 22 frozen CRL/issuer pairs, hashes, incident groups,
-  source aliases and supplementary-evidence references.
-- `benchmark/artifacts/`: content-addressed CRLs, issuer certificates and
-  supplementary signed bytes used by the runner.
-- `benchmark/synthetic/`: three public controls and the alternate public key;
-  private keys were discarded.
-- `benchmark_checks.py`: the checks and classifier. `analyze.py` contains only
-  shared hashing, subprocess and DER helpers extracted from the original study.
-- `generate_benchmark_controls.py`: inspect the construction of the controls;
-  running it without flags checks their hashes. `--new-snapshot` changes the
-  synthetic files and is not reproduction of this frozen case set.
-- [SOURCES.md](SOURCES.md) and [provenance.json](provenance.json): primary-source
-  links and artifact origins. The original source manifests are retained in
-  `evidence/manifest.json` and `expansion/manifest.json`.
-- `FEASIBILITY.md` and `DATA_EXPANSION.md`: collection-phase background reports.
-  Their wider raw downloads and collection scripts are outside this focused release.
+- `benchmark/cases.json` records the 22 CRL/issuer pairs and hashes.
+- `benchmark/artifacts/` contains the exact bytes used by the runner.
+- `benchmark/synthetic/` contains the public controls. Private keys were discarded.
+- `benchmark_checks.py` implements the checks; `analyze.py` supplies DER and process helpers.
+- [SOURCES.md](SOURCES.md) and [provenance.json](provenance.json) trace the artifacts to their sources.
 
-The source manifests describe a larger collection than the files included here.
-Their hashes in the case manifest preserve the collection context; reproduction
-uses the content-addressed benchmark fixtures directly.
+`generate_benchmark_controls.py` shows how I made the controls. Without flags it
+checks their hashes. `--new-snapshot` replaces them and changes the experiment.
+
+`FEASIBILITY.md`, `DATA_EXPANSION.md` and the source manifests describe the wider
+collection. Its raw downloads and collection scripts are outside this release.
+The included fixtures are sufficient to reproduce the benchmark.
 
 ## Feedback
 
 Please [open an issue](https://github.com/Kaus1ubh/crl-diagnostics-study/issues)
-with the case ID, OpenSSL version, command/output and the specific conclusion
-you think needs changing. Corrections to issuer pairing, source interpretation,
-algorithm handling and the limits of the synthetic controls are especially useful.
+with the case ID, OpenSSL version, command/output and the conclusion you think
+needs changing.
 
 ## License and credits
 
