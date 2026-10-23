@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-10-23T06:03:06.483681+00:00",
+  "discovery_source": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c34",
+  "discovery_author": "Zihao Wang",
+  "discovery_comment_created_at": "2026-10-22T09:04:13Z",
+  "prior_investigation": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c36",
+  "certificate_source": {
+    "url": "https://statue2027h2.mon.ct.sectigo.com/tile/data/004.p/212",
+    "log_entry_index": 1172,
+    "tile_index": 4,
+    "entry_offset": 148,
+    "tile_sha256": "3DC118878F9BC90BF706E3A6714ACE00BF4DEF43AED4EEAFD35FC9EC62894249",
+    "checkpoint_tree_size": 1236,
+    "checkpoint_sha256": "3DE7B8E7B23024077403DF9351CBF89C851D15C99D4E2FE932A245F93A6CAA04",
+    "extraction": "C2SP static-ct-api v1.1.0 TileLeaf; x509_entry ASN.1Cert at index 1172",
+    "limitation": "Retrieved from the log over HTTPS; no signed checkpoint or Merkle inclusion proof was verified."
+  },
+  "inputs": {
+    "crl11": {
+      "file": "benchmark/artifacts/9846bf9a4f213d8fba87e79d464732b9cc35a784f7992334ec3bc6db2a6f7dbd.crl",
+      "sha256": "9846BF9A4F213D8FBA87E79D464732B9CC35A784F7992334EC3BC6DB2A6F7DBD"
+    },
+    "crl12": {
+      "file": "benchmark/artifacts/bd8f716ef9994931446ce90537ce69e85637aaddcd8a3b34f668e362d8b3d950.crl",
+      "sha256": "BD8F716EF9994931446CE90537CE69E85637AADDCD8A3B34F668E362D8B3D950"
+    },
+    "stated_issuer": {
+      "file": "benchmark/artifacts/cef71e70b7c29addf6c30cd19e614b38fd5f02a435a0eeddd0087e183d101a51.der",
+      "sha256": "CEF71E70B7C29ADDF6C30CD19E614B38FD5F02A435A0EEDDD0087E183D101A51"
+    },
+    "ocsp_signer": {
+      "file": "followups/g1-ocsp/ocsp-signer.der",
+      "sha256": "9B43AA54CD6971C1432A1CCA607D3D79D7B9128959D5AB7B796B2BF7F45450BF"
+    }
+  }
+}

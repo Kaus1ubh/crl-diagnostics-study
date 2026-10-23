@@ -5,8 +5,14 @@ five incident groups across four operators. I added three synthetic controls
 to test what five diagnostic checks can tell us about a failure.
 
 The checks distinguish some issuer-name and algorithm errors. Seven historical
-signatures remain unresolved. I wrote up the cases in
+signatures were unresolved in the frozen five-check run. I wrote up the cases in
 [What a broken CRL can tell you](https://kaustu.bh/blog/what-a-broken-crl-can-tell-you).
+
+**Update, 23 October 2026:** I reproduced Zihao Wang's identification of an
+OCSP signing key for eMudhra G1 CRL #11. Its original signature verifies under
+that public key; CRL #12 verifies under the stated issuer instead. The
+[follow-up](followups/g1-ocsp/README.md) includes the certificate, hashes and
+offline runner. The original benchmark pairings and results stay frozen.
 
 ## Run offline
 
@@ -18,6 +24,7 @@ git clone https://github.com/Kaus1ubh/crl-diagnostics-study.git
 cd crl-diagnostics-study
 python run_benchmark.py
 python -m unittest discover -s . -p test_benchmark.py -v
+python run_g1_followup.py
 ```
 
 The runner verifies the protocol and fixture hashes, then overwrites

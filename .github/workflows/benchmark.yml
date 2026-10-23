@@ -22,3 +22,5 @@ jobs:
           cp results/benchmark.csv /tmp/recorded-benchmark.csv
           python run_benchmark.py
           diff -u /tmp/recorded-benchmark.csv results/benchmark.csv
+      - name: Reproduce supplementary G1 signing-key check
+        run: python run_g1_followup.py

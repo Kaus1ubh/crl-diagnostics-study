@@ -35,3 +35,10 @@ that are not redistributed in this focused benchmark repository.
 The collection-phase reports discuss additional dashboard, audit and archive
 sources. Those wider observations must not be included in the 19-object
 benchmark counts.
+
+## G1 signing-key follow-up, 23 October 2026
+
+[Zihao Wang, Bug 2083449 comment 34](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c34)
+identified the OCSP signing certificate for G1 CRL #11. [Wayne's comment 36](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c36)
+describes the prior investigation. Supplemental inputs, source URLs and hashes
+are in [followups/g1-ocsp/manifest.json](followups/g1-ocsp/manifest.json).

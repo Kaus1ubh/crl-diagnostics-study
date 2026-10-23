@@ -1,0 +1,282 @@
+{
+  "recorded_at": "2026-10-23T06:03:06.914641+00:00",
+  "openssl": "OpenSSL 3.6.3 9 Jun 2026 (Library: OpenSSL 3.6.3 9 Jun 2026)",
+  "manifest_sha256": "A24BF536B87F8689A2C091CF116C2A5EE4AAC99AD2CE3A6762E52791CB6D124B",
+  "results": {
+    "crl11_stated_issuer": {
+      "checks": {
+        "issuer_name": "pass",
+        "key_identifiers": "pass",
+        "algorithm_consistency": "pass",
+        "raw_signature": "fail",
+        "openssl_crl": "fail"
+      },
+      "diagnosis": "unresolved_signature_failure",
+      "metadata": {
+        "issuer_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "subject_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "aki": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "ski": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "inner_algorithm_der": "300d06092a864886f70d01010c0500",
+        "outer_algorithm_der": "300d06092a864886f70d01010c0500",
+        "signature_oid": "1.2.840.113549.1.1.12",
+        "inner_outer_equal": true,
+        "signature_key_family_matches": true
+      },
+      "raw_output": {
+        "returncode": 1,
+        "stdout": "Verification failure",
+        "stderr": "<address>:error:0200008A:rsa routines:RSA_padding_check_PKCS1_type_1:invalid padding:../openssl-3.6.3/crypto/rsa/rsa_pk1.c:78:\r\n<address>:error:02000072:rsa routines:rsa_ossl_public_decrypt:padding check failed:../openssl-3.6.3/crypto/rsa/rsa_ossl.c:779:\r\n<address>:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1057:",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "dgst",
+          "-sha384",
+          "-verify",
+          "<work>\\public.pem",
+          "-signature",
+          "<work>\\signature.bin",
+          "<work>\\message.bin"
+        ]
+      },
+      "normal_output": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "verify failure\r\n<address>:error:0200008A:rsa routines:RSA_padding_check_PKCS1_type_1:invalid padding:../openssl-3.6.3/crypto/rsa/rsa_pk1.c:78:\r\n<address>:error:02000072:rsa routines:rsa_ossl_public_decrypt:padding check failed:../openssl-3.6.3/crypto/rsa/rsa_ossl.c:779:\r\n<address>:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1057:\r\n<address>:error:06880006:asn1 encoding routines:ASN1_item_verify_ctx:EVP lib:../openssl-3.6.3/crypto/asn1/a_verify.c:219:",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "crl",
+          "-inform",
+          "DER",
+          "-in",
+          "<work>\\sample.der",
+          "-verify",
+          "-noout",
+          "-CAfile",
+          "<work>\\issuer.pem",
+          "-no-CApath",
+          "-no-CAstore"
+        ]
+      }
+    },
+    "crl11_ocsp_signer": {
+      "checks": {
+        "issuer_name": "fail",
+        "key_identifiers": "fail",
+        "algorithm_consistency": "pass",
+        "raw_signature": "pass",
+        "openssl_crl": "fail"
+      },
+      "diagnosis": "verified_signature_issuer_name_mismatch",
+      "metadata": {
+        "issuer_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "subject_der_sha256": "BD55488D391DCD56695F7FAFEB3371995A93D664734C39668BD66FCC2098BC13",
+        "aki": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "ski": "3B140661910460E36D4CE3CA26783E73F334A52C",
+        "inner_algorithm_der": "300d06092a864886f70d01010c0500",
+        "outer_algorithm_der": "300d06092a864886f70d01010c0500",
+        "signature_oid": "1.2.840.113549.1.1.12",
+        "inner_outer_equal": true,
+        "signature_key_family_matches": true
+      },
+      "raw_output": {
+        "returncode": 0,
+        "stdout": "Verified OK",
+        "stderr": "",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "dgst",
+          "-sha384",
+          "-verify",
+          "<work>\\public.pem",
+          "-signature",
+          "<work>\\signature.bin",
+          "<work>\\message.bin"
+        ]
+      },
+      "normal_output": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Error getting CRL issuer certificate",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "crl",
+          "-inform",
+          "DER",
+          "-in",
+          "<work>\\sample.der",
+          "-verify",
+          "-noout",
+          "-CAfile",
+          "<work>\\issuer.pem",
+          "-no-CApath",
+          "-no-CAstore"
+        ]
+      }
+    },
+    "crl12_stated_issuer": {
+      "checks": {
+        "issuer_name": "pass",
+        "key_identifiers": "pass",
+        "algorithm_consistency": "pass",
+        "raw_signature": "pass",
+        "openssl_crl": "pass"
+      },
+      "diagnosis": "no_failure_in_five_checks",
+      "metadata": {
+        "issuer_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "subject_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "aki": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "ski": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "inner_algorithm_der": "300d06092a864886f70d01010c0500",
+        "outer_algorithm_der": "300d06092a864886f70d01010c0500",
+        "signature_oid": "1.2.840.113549.1.1.12",
+        "inner_outer_equal": true,
+        "signature_key_family_matches": true
+      },
+      "raw_output": {
+        "returncode": 0,
+        "stdout": "Verified OK",
+        "stderr": "",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "dgst",
+          "-sha384",
+          "-verify",
+          "<work>\\public.pem",
+          "-signature",
+          "<work>\\signature.bin",
+          "<work>\\message.bin"
+        ]
+      },
+      "normal_output": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "verify OK",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "crl",
+          "-inform",
+          "DER",
+          "-in",
+          "<work>\\sample.der",
+          "-verify",
+          "-noout",
+          "-CAfile",
+          "<work>\\issuer.pem",
+          "-no-CApath",
+          "-no-CAstore"
+        ]
+      }
+    },
+    "crl12_ocsp_signer": {
+      "checks": {
+        "issuer_name": "fail",
+        "key_identifiers": "fail",
+        "algorithm_consistency": "pass",
+        "raw_signature": "fail",
+        "openssl_crl": "fail"
+      },
+      "diagnosis": "mixed_or_unknown",
+      "metadata": {
+        "issuer_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "subject_der_sha256": "BD55488D391DCD56695F7FAFEB3371995A93D664734C39668BD66FCC2098BC13",
+        "aki": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "ski": "3B140661910460E36D4CE3CA26783E73F334A52C",
+        "inner_algorithm_der": "300d06092a864886f70d01010c0500",
+        "outer_algorithm_der": "300d06092a864886f70d01010c0500",
+        "signature_oid": "1.2.840.113549.1.1.12",
+        "inner_outer_equal": true,
+        "signature_key_family_matches": true
+      },
+      "raw_output": {
+        "returncode": 1,
+        "stdout": "Verification failure",
+        "stderr": "<address>:error:0200008A:rsa routines:RSA_padding_check_PKCS1_type_1:invalid padding:../openssl-3.6.3/crypto/rsa/rsa_pk1.c:78:\r\n<address>:error:02000072:rsa routines:rsa_ossl_public_decrypt:padding check failed:../openssl-3.6.3/crypto/rsa/rsa_ossl.c:779:\r\n<address>:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1057:",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "dgst",
+          "-sha384",
+          "-verify",
+          "<work>\\public.pem",
+          "-signature",
+          "<work>\\signature.bin",
+          "<work>\\message.bin"
+        ]
+      },
+      "normal_output": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Error getting CRL issuer certificate",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "crl",
+          "-inform",
+          "DER",
+          "-in",
+          "<work>\\sample.der",
+          "-verify",
+          "-noout",
+          "-CAfile",
+          "<work>\\issuer.pem",
+          "-no-CApath",
+          "-no-CAstore"
+        ]
+      }
+    },
+    "altered_signature_ocsp_signer": {
+      "checks": {
+        "issuer_name": "fail",
+        "key_identifiers": "fail",
+        "algorithm_consistency": "pass",
+        "raw_signature": "fail",
+        "openssl_crl": "fail"
+      },
+      "diagnosis": "mixed_or_unknown",
+      "metadata": {
+        "issuer_der_sha256": "ED391C70CE32CA28B03835D668E38CEBFCF7747CF5A2636FAD593C6973F01EFC",
+        "subject_der_sha256": "BD55488D391DCD56695F7FAFEB3371995A93D664734C39668BD66FCC2098BC13",
+        "aki": "641DC9D8F8C4EC044B2281F5329A5EB9E79352F9",
+        "ski": "3B140661910460E36D4CE3CA26783E73F334A52C",
+        "inner_algorithm_der": "300d06092a864886f70d01010c0500",
+        "outer_algorithm_der": "300d06092a864886f70d01010c0500",
+        "signature_oid": "1.2.840.113549.1.1.12",
+        "inner_outer_equal": true,
+        "signature_key_family_matches": true
+      },
+      "raw_output": {
+        "returncode": 1,
+        "stdout": "Verification failure",
+        "stderr": "<address>:error:0200008A:rsa routines:RSA_padding_check_PKCS1_type_1:invalid padding:../openssl-3.6.3/crypto/rsa/rsa_pk1.c:78:\r\n<address>:error:02000072:rsa routines:rsa_ossl_public_decrypt:padding check failed:../openssl-3.6.3/crypto/rsa/rsa_ossl.c:779:\r\n<address>:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1057:",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "dgst",
+          "-sha384",
+          "-verify",
+          "<work>\\public.pem",
+          "-signature",
+          "<work>\\signature.bin",
+          "<work>\\message.bin"
+        ]
+      },
+      "normal_output": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Error getting CRL issuer certificate",
+        "command": [
+          "C:\\msys64\\ucrt64\\bin\\openssl.EXE",
+          "crl",
+          "-inform",
+          "DER",
+          "-in",
+          "<work>\\sample.der",
+          "-verify",
+          "-noout",
+          "-CAfile",
+          "<work>\\issuer.pem",
+          "-no-CApath",
+          "-no-CAstore"
+        ]
+      }
+    }
+  }
+}

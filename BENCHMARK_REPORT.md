@@ -55,6 +55,25 @@ independent case.
 
 ## Supplementary evidence
 
+### G1 CRL #11 follow-up, 23 October 2026
+
+After the frozen run, I reproduced [Zihao Wang's public finding in comment 34](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c34).
+The signature on our exact G1 CRL #11 verifies with the public key of
+`EMSIGN ROOT TLS CA - G1 OCSP 2026 - 4`. CRL #12 fails under that key and
+verifies under the stated root key. This identifies a matching signing key
+for one of the seven failures left unresolved by the original five checks.
+Normal CRL verification still fails with the OCSP certificate; a matching
+raw signature does not establish an authorised CRL signer.
+
+[The follow-up](followups/g1-ocsp/README.md) preserves the additional public
+certificate, provenance, hashes, verification outputs and negative control.
+Wang supplied the public identification and commands. Wayne's [comment 36](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c36)
+says the signing-key answer was already known in the original investigation.
+This is a reproduction of their work. The original table and pairings above
+remain the frozen benchmark, not a claim that this case is still unexplained.
+
+### iTrusChina alternate payload
+
 iTrusChina supplied an alternate 117-byte TBSCertList in addition to the
 published 167-byte signed contents. The original signature verifies over that
 alternate payload and fails over the published payload. This reproduces the
